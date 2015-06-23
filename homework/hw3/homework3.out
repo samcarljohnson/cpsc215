@@ -1,0 +1,84 @@
+NAME: Sam Johnson
+DATE: 02/08/2014
+
+
+EXERCISE 1:
+
+C:\Users\Sam\Desktop\hw3>javac Caesar.java
+
+C:\Users\Sam\Desktop\hw3>java Caesar
+Encryption order = DEFGHIJKLMNOPQRSTUVWXYZABC
+Decryption order = XYZABCDEFGHIJKLMNOPQRSTUVW
+WKH HDJOH LV LQ SODB; PHHW DW MRH'V.
+the eagle is in play; meet at joe's.
+
+EXERCISE 2:
+
+C:\Users\Sam\Desktop\hw3>java MyCaesar
+Tests the case: ("BLUE", 5)
+Encryption order = WXYZBLUEACDFGHIJKMNOPQRSTV
+Decryption order = IEJKHLMNOPQFRSTUVWXYGZABCD
+OEB BWUFB AN AH JFWT; GBBO WO CIB'N.
+the eagle is in play; meet at joe's.
+
+Tests the default constructor:
+Encryption order = DEFGHIJKLMNOPQRSTUVWXYZABC
+Decryption order = XYZABCDEFGHIJKLMNOPQRSTUVW
+WKH HDJOH LV LQ SODB; PHHW DW MRH'V.
+the eagle is in play; meet at joe's.
+
+Tests the case: ("RED", 10):
+Encryption order = QSTUVWXYZREDABCFGHIJKLMNOP
+Decryption order = MNOLKPQRSTUVWXYZAJBCDEFGHI
+JYV VQXDV ZI ZB FDQO; AVVJ QJ RCV'I.
+the eagle is in play; meet at joe's.
+
+Tests the case: ("BROWN", 7):
+Encryption order = TUVXYZBROWNACDEFGHIJKLMPQS
+Decryption order = LGMNOPQRSTUVWKIXYHZABCJDEF
+JRY YTBAY OI OD FATQ; CYYJ TJ WEY'I.
+the eagle is in play; meet at joe's.
+
+Tests the case: ("WHITE", 11):
+Encryption order = OPQRSUVXYZWHITEABCDFGJKLMN
+Decryption order = PQRSOTULMVWXYZABCDENFGKHIJ
+FXS SOVHS YD YT AHOM; ISSF OF ZES'D.
+the eagle is in play; meet at joe's.
+
+Tests the case: ("BLACK", 14):
+Encryption order = NOPQRSTUVWXYZBLACKDEFGHIJM
+Decryption order = PNQSTUVWXYROZABCDEFGHIJKLM
+EUR RNTYR VD VB AYNJ; ZRRE NE WLR'D.
+the eagle is in play; meet at joe's.
+
+EXERCISE 3:
+
+C:\Users\Sam\Desktop\hw3>java MyCaesar
+Tests the case: ("BLUEE", 5)
+Exception in thread "main" KeywordException: The input string was not made of unique values.
+        at MyCaesar.<init>(MyCaesar.java:36)
+        at MyCaesar.main(MyCaesar.java:163)
+
+C:\Users\Sam\Desktop\hw3>java MyCaesar		
+Tests the case: ("REDREDREDREDREDREDREDREDRED", 10):
+Exception in thread "main" KeywordException: The input string was not made of unique values.
+        at MyCaesar.<init>(MyCaesar.java:36)
+        at MyCaesar.main(MyCaesar.java:174)
+
+C:\Users\Sam\Desktop\hw3>java MyCaesar		
+Tests the case: ("BROWN", 28):
+Exception in thread "main" IntegerKeyException: The value for n was not in the range [0,26]
+        at MyCaesar.<init>(MyCaesar.java:23)
+        at MyCaesar.main(MyCaesar.java:188)
+
+C:\Users\Sam\Desktop\hw3>java MyCaesar		
+Tests the case: ("WHITE", -1):
+Exception in thread "main" IntegerKeyException: The value for n was not in the range [0,26]
+        at MyCaesar.<init>(MyCaesar.java:23)
+        at MyCaesar.main(MyCaesar.java:199)
+
+C:\Users\Sam\Desktop\hw3>java MyCaesar		
+Tests the case: ("BLACKK", 30):
+Exception in thread "main" IntegerKeyException: The value for n was not in the range [0,26]
+        at MyCaesar.<init>(MyCaesar.java:23)
+        at MyCaesar.main(MyCaesar.java:210)

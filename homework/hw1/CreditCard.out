@@ -1,0 +1,39 @@
+--- HOMEWORK 1 (CreditCard.out) ---
+--- NAME: Sam Johnson           ---
+--- DATE: 1-25-14               ---
+
+Number = 5391 0375 9387 5309
+Name = John Henry
+Bank = Fleet Bank
+Balance = 0.0
+Limit = 2500
+
+Charging 200 dollars on card1...
+Paying 100 dollars to card1...
+
+Number = 5391 0375 9387 5309
+Name = John Henry
+Bank = Fleet Bank
+Balance = 110.0
+Limit = 2500
+
+
+Number = 1234 5678 9123 4567
+Name = Sam Johnson
+Bank = Chase Bank
+Balance = 0.0
+Limit = 2500
+
+Setting card2's credit limit to 1000...
+Changing card2's card holder name to Samuel Johnson...
+Charging 300 dollars on card2...
+Paying 100 dollars to card2...
+Applying a 20 percent interest on card2...
+Charging 800 dollars on card2...
+Oops! It looks like you've tried to charge this card beyond the preset limit. We're sorry but your transaction was cancelled.
+
+Number = 1234 5678 9123 4567
+Name = Samuel Johnson
+Bank = Chase Bank
+Balance = 264.0
+Limit = 1000

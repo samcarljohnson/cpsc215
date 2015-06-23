@@ -1,0 +1,52 @@
+----- Part 1 -----
+Inserting the contents of S into the tree...
+
+----- Part 2 -----
+
+{"alpha", 3}
+{"beta", 2}
+{"delta", 4}
+{"epsilon", 6}
+{"gamma", 0}
+{"lambda", 5}
+{"phi", 1}
+{"zeta", 7}
+
+----- Part 3 -----
+
+Testing get("alpha") -> old value: 3
+Testing put("alpha", 50) -> old value: 3
+Testing put("sam", 21) -> old value: null
+Testing remove("sam") -> old value: 21
+
+What the new map looks like: 
+{"alpha", 50}
+{"beta", 2}
+{"delta", 4}
+{"epsilon", 6}
+{"gamma", 0}
+{"lambda", 5}
+{"phi", 1}
+{"zeta", 7}
+
+----- Part 4 -----
+
+{ 50 }
+{ 2 }
+{ 4 }
+{ 6 }
+{ 0 }
+{ 5 }
+{ 1 }
+{ 7 }
+
+----- Part 5 -----
+
+{"alpha"}
+{"beta"}
+{"delta"}
+{"epsilon"}
+{"gamma"}
+{"lambda"}
+{"phi"}
+{"zeta"}

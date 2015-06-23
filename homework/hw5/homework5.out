@@ -1,0 +1,48 @@
+HOMEWORK5.OUT
+Name: Sam Johnson
+Date: 02/24/2014
+
+hw5 samjohnson$ java Tester
+Size of the Node Deque: 0
+Is this Node Deque empty? (T/F): true
+The first element is: Sam
+The last element is: Joe
+Size of the Node Deque: 2
+Is this Node Deque empty? (T/F): false
+Adding 3 elements to the front and 3 to the back of the deque...
+Size of the Node Deque: 8
+Is this Node Deque empty? (T/F): false
+Removing first element, Bill...
+Size of the Node Deque: 7
+Removing last element, Mike...
+Size of the Node Deque: 6
+The first element is: Tim
+The last element is: Ryan
+
+
+hw5 samjohnson$ java Josephus
+  Queue: DequeQueue@5fe04cbf  k = 3
+    Doug is out
+  Queue: DequeQueue@5fe04cbf  k = 3
+    Bob is out
+  Queue: DequeQueue@5fe04cbf  k = 3
+    Alice is out
+  Queue: DequeQueue@5fe04cbf  k = 3
+    Cindy is out
+  Queue: DequeQueue@5fe04cbf  k = 3
+    Fred is out
+First winner is Ed
+  Queue: DequeQueue@7ecec0c5  k = 10
+    Kim is out
+  Queue: DequeQueue@7ecec0c5  k = 10
+    Lance is out
+  Queue: DequeQueue@7ecec0c5  k = 10
+    Irene is out
+  Queue: DequeQueue@7ecec0c5  k = 10
+    Gene is out
+  Queue: DequeQueue@7ecec0c5  k = 10
+    Hope is out
+Second winner is Jack
+  Queue: DequeQueue@37d2068d  k = 7
+    Roberto is out
+Third winner is Mike

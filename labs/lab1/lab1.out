@@ -1,0 +1,26 @@
+Name: Sam Johnson and Basileal Imana
+
+sjohnso7@netlab09:/home3/sjohnso7/Documents/cpsc215/lab1$ java GCD
+This program assumes m < n.
+Enter an integer value for m: 40
+Enter an integer value for n: 50
+By the brute-force method, gcd(40, 50) = 10.
+By the Euclidean algorithm, gcd(40, 50) = 10.
+sjohnso7@netlab09:/home3/sjohnso7/Documents/cpsc215/lab1$ java GCD
+This program assumes m < n.
+Enter an integer value for m: 9 
+Enter an integer value for n: 18
+By the brute-force method, gcd(9, 18) = 9.
+By the Euclidean algorithm, gcd(9, 18) = 9.
+sjohnso7@netlab09:/home3/sjohnso7/Documents/cpsc215/lab1$ java GCD
+This program assumes m < n.
+Enter an integer value for m: 10   
+Enter an integer value for n: 21
+By the brute-force method, gcd(10, 21) = 1.
+By the Euclidean algorithm, gcd(10, 21) = 1.
+sjohnso7@netlab09:/home3/sjohnso7/Documents/cpsc215/lab1$ java GCD
+This program assumes m < n.
+Enter an integer value for m: 6543   
+Enter an integer value for n: 7654
+By the brute-force method, gcd(6543, 7654) = 1.
+By the Euclidean algorithm, gcd(6543, 7654) = 1.

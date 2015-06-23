@@ -1,0 +1,60 @@
+Name: Sam Johnson and Ian Weist
+Date: 02/20/2014
+
+
+sjohnso7@netlab16:/home3/sjohnso7/Desktop$ java CheckBraces ValidClass.java
+/**
+ * This is a valid class.
+ */
+
+public class ValidClass {
+  int arr[] = new int[25];
+  public ValidClass() {
+    init();
+  }
+  public void init() {
+    for (int k = 0; k < arr.length; k++)
+      arr[k] = 10;
+  }
+}
+
+
+
+sjohnso7@netlab16:/home3/sjohnso7/Desktop$ java CheckBraces UnmatchedBrace.java
+/**
+ * This class has an unmatched brace.
+ */
+
+public class UnmatchedBrace {
+  int arr[] = new int[25];
+  public UnmatchedBrace() {
+    init();
+  }
+  public void init() {
+    for (int k = 0; k < arr.length; k++)
+      arr[k} = 10;
+  }
+}
+
+Unmatched brace at character 223: Found } expecting [
+
+
+
+sjohnso7@netlab16:/home3/sjohnso7/Desktop$ java CheckBraces MissingBrace.java
+/**
+ * This class has a missing brace.
+ */
+
+public class MissingBrace }
+  int arr[] = new int[25];
+  public MissingBrace() {
+    init();
+  }
+  public void init() {
+    for (int k = 0; k < arr.length; k++)
+      arr[k] = 10;
+  }
+}
+
+Unmatched brace at character 70: No opening brace for }.
+

@@ -1,0 +1,19 @@
+Testing heap sort...
+Input:  10 4 0 0 17 17 12 11 14 8 7 1 2 9 15 7 15 6 15 0 
+Output: 0 0 0 1 2 4 6 7 7 8 9 10 11 12 14 15 15 15 17 17 
+
+Testing bubble sort...
+Input:  17 17 16 1 18 16 0 18 11 14 9 2 1 9 1 7 3 7 3 9 
+Output: 0 1 1 1 2 3 3 7 7 9 9 9 11 14 16 16 17 17 18 18 
+
+Testing selection sort...
+Input:  17 6 13 9 19 7 3 19 17 5 7 10 14 0 0 0 3 10 19 15 
+Output: 0 0 0 3 3 5 6 7 7 9 10 10 13 14 15 17 17 19 19 19 
+
+For n = 10, Bubble sort performs 45 comparisons.
+For n = 10, Selection sort performs 45 comparisons.
+For n = 10, Heap sort performs 39 comparisons.
+
+For n = 100, bubble sort performs 4950 comparisons.
+For n = 100, selection sort performs 4950 comparisons.
+For n = 100, heap sort performs 1068 comparisons.
